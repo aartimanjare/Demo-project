@@ -13,5 +13,5 @@ def Square_Difference(n):
 	
 	return C
 
-# Driver code
+# User code
 print(Square_Difference(15))
