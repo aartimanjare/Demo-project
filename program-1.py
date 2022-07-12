@@ -1,12 +1,12 @@
 def convert(number):
-    print = " "
+    result = " "
 if number % 3 == 0:
-    print += "Pling"
+    result += "Pling"
 if number % 5 == 0:
-    print += "Plang"
+    result += "Plang"
 if number % 7 == 0:
-    print += "Plong"
-if print is " ":
+    result += "Plong"
+if result is " ":
     return str(number)
 
 return print
