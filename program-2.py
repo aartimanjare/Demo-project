@@ -1,11 +1,13 @@
+#"Difference between square of sum and sum of squares"
+
 def Square_Difference(n):
 
 	# first n natural numbers 
 	A = (n * (n + 1) * (2 * n + 1)) / 6
 	
-	# sum of n naturals numbers
+	# sum of n natural numbers
 	B = (n * (n + 1)) / 2
-	# square of n naturals number
+	# square of n natural numbers
 	B = B ** 2
 	
 	# Differences between A and B
